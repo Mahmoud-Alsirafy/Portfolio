@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="16" fill="url(#portGrad)" />
+  <!-- Browser Header -->
+  <rect width="600" height="40" rx="16" fill="#292929" />
+  <rect y="25" width="600" height="15" fill="#292929" />
+  <circle cx="28" cy="20" r="6" fill="#e74c3c" />
+  <circle cx="48" cy="20" r="6" fill="#f39c12" />
+  <circle cx="68" cy="20" r="6" fill="#2ecc71" />
+  <rect x="150" y="10" width="300" height="20" rx="6" fill="#1d1d1d" />
+  <text x="300" y="24" fill="#E1F4F3" font-family="monospace, sans-serif" font-size="11" text-anchor="middle" opacity="0.85">https://mahmoud-wael.dev</text>
+
+  <!-- Clean Minimal Hero preview -->
+  <rect x="50" y="70" width="500" height="270" rx="12" fill="#262626" stroke="#3d3d3d" stroke-width="1" />
+  <circle cx="120" cy="140" r="40" fill="#E1F4F3" />
+  <circle cx="120" cy="130" r="16" fill="#333333" />
+  <path d="M100 165 C100 150, 140 150, 140 165 Z" fill="#333333" />
+
+  <text x="180" y="125" fill="#E1F4F3" font-family="system-ui, sans-serif" font-size="13">Hello, I'm</text>
+  <text x="180" y="155" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="22" font-weight="bold">Mahmoud Wael</text>
+  <text x="180" y="180" fill="#706C61" font-family="monospace, sans-serif" font-size="13">Full-Stack Developer | PHP &amp; Laravel</text>
+
+  <!-- Tag Pills -->
+  <rect x="80" y="220" width="90" height="30" rx="6" fill="#333333" stroke="#706C61" stroke-width="1" />
+  <text x="125" y="240" fill="#E1F4F3" font-family="monospace, sans-serif" font-size="12" text-anchor="middle">PHP 8.2</text>
+
+  <rect x="185" y="220" width="90" height="30" rx="6" fill="#333333" stroke="#706C61" stroke-width="1" />
+  <text x="230" y="240" fill="#E1F4F3" font-family="monospace, sans-serif" font-size="12" text-anchor="middle">Laravel</text>
+
+  <rect x="290" y="220" width="90" height="30" rx="6" fill="#333333" stroke="#706C61" stroke-width="1" />
+  <text x="335" y="240" fill="#E1F4F3" font-family="monospace, sans-serif" font-size="12" text-anchor="middle">MySQL</text>
+
+  <rect x="395" y="220" width="90" height="30" rx="6" fill="#333333" stroke="#706C61" stroke-width="1" />
+  <text x="440" y="240" fill="#E1F4F3" font-family="monospace, sans-serif" font-size="12" text-anchor="middle">REST APIs</text>
+
+  <!-- Code snippet badge at bottom -->
+  <rect x="80" y="270" width="405" height="45" rx="6" fill="#1b1b1b" />
+  <text x="100" y="297" fill="#a4deda" font-family="monospace, sans-serif" font-size="12">Route::get('/projects', [ProjectController::class, 'index']);</text>
+</svg>

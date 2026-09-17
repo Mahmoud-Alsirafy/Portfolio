@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="petBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#303841" />
+      <stop offset="100%" stop-color="#1f242b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="16" fill="url(#petBg)" />
+  <!-- Browser Header -->
+  <rect width="600" height="40" rx="16" fill="#282f37" />
+  <rect y="25" width="600" height="15" fill="#282f37" />
+  <circle cx="28" cy="20" r="6" fill="#e74c3c" />
+  <circle cx="48" cy="20" r="6" fill="#f39c12" />
+  <circle cx="68" cy="20" r="6" fill="#2ecc71" />
+  <rect x="150" y="10" width="300" height="20" rx="6" fill="#1d2228" />
+  <text x="300" y="24" fill="#E1F4F3" font-family="monospace, sans-serif" font-size="11" text-anchor="middle" opacity="0.85">https://petcare.app/dashboard</text>
+
+  <!-- Hero Banner inside Mockup -->
+  <rect x="25" y="60" width="550" height="95" rx="10" fill="#3a444e" />
+  <!-- Paw icon -->
+  <circle cx="65" cy="100" r="14" fill="#E1F4F3" />
+  <circle cx="48" cy="80" r="6" fill="#E1F4F3" />
+  <circle cx="62" cy="74" r="6" fill="#E1F4F3" />
+  <circle cx="78" cy="78" r="6" fill="#E1F4F3" />
+  <text x="105" y="98" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">PetCare Veterinary &amp; Clinic Portal</text>
+  <text x="105" y="120" fill="#a4deda" font-family="system-ui, sans-serif" font-size="12">Online pet appointments, vaccination schedules &amp; records</text>
+
+  <!-- Service Cards -->
+  <rect x="25" y="175" width="170" height="180" rx="10" fill="#293038" stroke="#3a444e" stroke-width="1" />
+  <circle cx="110" cy="215" r="24" fill="#3a444e" />
+  <text x="110" y="260" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Health Checkups</text>
+  <text x="110" y="285" fill="#706C61" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Vaccine logs &amp; visits</text>
+  <rect x="55" y="315" width="110" height="24" rx="12" fill="#E1F4F3" />
+  <text x="110" y="331" fill="#333333" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Book Slot</text>
+
+  <rect x="215" y="175" width="170" height="180" rx="10" fill="#293038" stroke="#3a444e" stroke-width="1" />
+  <circle cx="300" cy="215" r="24" fill="#3a444e" />
+  <text x="300" y="260" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Nutrition Plans</text>
+  <text x="300" y="285" fill="#706C61" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Customized meal plans</text>
+  <rect x="245" y="315" width="110" height="24" rx="12" fill="#3a444e" />
+  <text x="300" y="331" fill="#E1F4F3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">View Details</text>
+
+  <rect x="405" y="175" width="170" height="180" rx="10" fill="#293038" stroke="#3a444e" stroke-width="1" />
+  <circle cx="490" cy="215" r="24" fill="#3a444e" />
+  <text x="490" y="260" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Doctor Scheduling</text>
+  <text x="490" y="285" fill="#706C61" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Realtime calendars</text>
+  <rect x="435" y="315" width="110" height="24" rx="12" fill="#3a444e" />
+  <text x="490" y="331" fill="#E1F4F3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">View Details</text>
+</svg>

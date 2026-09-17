@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+    <pattern id="dotPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#706C61" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <rect width="500" height="500" rx="28" fill="url(#aboutGrad)" />
+  <rect width="500" height="500" rx="28" fill="url(#dotPattern)" />
+
+  <!-- Outer frame border with subtle light tone -->
+  <rect x="25" y="25" width="450" height="450" rx="20" fill="none" stroke="#E1F4F3" stroke-opacity="0.25" stroke-width="2" stroke-dasharray="8 6" />
+
+  <!-- Code Card representation -->
+  <rect x="60" y="70" width="380" height="360" rx="16" fill="#282828" stroke="#3d3d3d" stroke-width="1.5" />
+  
+  <!-- Window dots -->
+  <circle cx="85" cy="95" r="5" fill="#e74c3c" />
+  <circle cx="102" cy="95" r="5" fill="#f39c12" />
+  <circle cx="119" cy="95" r="5" fill="#2ecc71" />
+  <text x="250" y="99" fill="#706C61" font-family="monospace, sans-serif" font-size="11" text-anchor="middle">MahmoudWael.php</text>
+  <line x1="60" y1="115" x2="440" y2="115" stroke="#383838" stroke-width="1" />
+
+  <!-- PHP Class Code Mockup -->
+  <g font-family="Consolas, 'Fira Code', monospace" font-size="12">
+    <text x="85" y="150" fill="#e74c3c">&lt;?php</text>
+    <text x="85" y="180" fill="#a4deda">namespace <tspan fill="#FFFFFF">App\Developers;</tspan></text>
+    
+    <text x="85" y="215" fill="#a4deda">class <tspan fill="#FFFFFF" font-weight="bold">MahmoudWael</tspan> extends <tspan fill="#FFFFFF">FullStackDev</tspan> {</text>
+    
+    <text x="110" y="245" fill="#706C61">// Core focus &amp; passion</text>
+    <text x="110" y="270" fill="#E1F4F3">public string <tspan fill="#FFFFFF">$specialty = </tspan><tspan fill="#f39c12">'PHP &amp; Laravel'</tspan>;</text>
+    <text x="110" y="295" fill="#E1F4F3">public array <tspan fill="#FFFFFF">$database = </tspan><tspan fill="#f39c12">['MySQL', 'Architecture']</tspan>;</text>
+    <text x="110" y="320" fill="#E1F4F3">public array <tspan fill="#FFFFFF">$values = </tspan><tspan fill="#f39c12">['Clean Code', 'Performance']</tspan>;</text>
+
+    <text x="110" y="355" fill="#a4deda">public function <tspan fill="#FFFFFF">buildWebSolution</tspan>() {</text>
+    <text x="135" y="380" fill="#2ecc71">return <tspan fill="#FFFFFF">$this->deployScalableApp();</tspan></text>
+    <text x="110" y="405" fill="#a4deda">}</text>
+    
+    <text x="85" y="420" fill="#a4deda">}</text>
+  </g>
+</svg>
